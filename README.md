@@ -1,25 +1,77 @@
 # DB-Test
 ## Aufgabe 1
-Stelle Entitäten mittels Chen-Notation und Min,Max Notation dar.
+Stelle Entitäten mittels Chen-Notation und Min,Max Notation dar.<br>
 Wähle ein sinnvolles Beispiel!
+
+![](Aufgabe1.png)
+
 ## Aufgabe 2
 Kann eine Beziehung Attribute haben?
 
+Ja
+
 Wenn ja, wie stelle ich es im ERD dar?
+
+Wird als assoziative Tabelle dargestellt.
 ## Aufgabe 3
 Welche Codd'schen Anforderungen gibt es (Nenne mindestens 5)
+
+Integration<br>
+Operationen<br>
+Katalog <br>
+Benutzeransichten<br>
+Integrität<br>
+Datensicherung<br>
+Transaktionen<br>
+Zugriffskontrolle<br>
+Synchronisation
+
+  
 ## Aufgabe 4
 Nenne den Unterschied zwischen Konzeptuellen und Logischem Schema
+
+Konzeptuelles Schema: Grafische und textuelle Notationen
+
+Logisches Schema: Tabellarische Darstellung
+
 ## Aufgabe 5
 Welche 3 Bestandteile gibt es im Entity Relationship Model
+
+Entity = Objekt <br>
+Relation = Beziehung zwischen den Objekten<br>
+Attribute = Eigenschaften von einem Objekt oder Beziehung<br>
 ## Aufgabe 6
 Welche Datentypen gibt es in MySQL? (Nenne mindestens 5)
+
+Integer, double, varchar, char, Blob (Binary large object) date, timestamp
 ## Aufgabe 7
 Welche Arten von Schlüsseln gibt es und welche Eigenschaften besitzen diese?
+
+Primärschlüssel: dient zur eindeutigen Identifikation eines Objekts
+
+Fremdschlüssel: ist ein Schlüssel in einer Tabelle um auf andere Tabellen zu verweisen und diese zu verbinden. ein Fremdschlüssel muss immer ein Primärschlüssel in jener Tabelle sein auf die er verweist.
 ## Aufgabe 8
 Welche Arten von Beziehungen gibt es? Zeichne für jede ein Beispiel auf
+
+
+unär: Eine Entität hat eine Beziehung mit sich selbst
+
+
+binär: Beziehung zwischen zwei Entitäten
+
+
+ternär: Beziehung zwischen drei oder mehr Entitäten
+
+
 ## Aufgabe 9
 Was bedeutet der Begriff Kardinalität und welche Kardinalitäten gibt es?
+
+Kardinalität = Verhältnisse der Beziehungen
+
+1 : 1
+1 : n
+m : n
+
 ## Aufgabe 10
 Was bedeutet der Begriff Datenintegrität und worin unterscheidet sich Integrität und referentielle Integrität?
 ## Aufgabe 11
