@@ -76,8 +76,25 @@ m : n
 
 ## Aufgabe 10
 Was bedeutet der Begriff Datenintegrität und worin unterscheidet sich Integrität und referentielle Integrität?
+
+Datenintegrität = Richtigkeit der Daten
+
+Referentielle Integrität =  Richtigkeit der Beziehungen
+
 ## Aufgabe 11
 Erkläre die 3 Normalformen
+
+1.Normalform:
+Beziehungsschema wird in seine atomaren Bestandteile zerlegt.
+
+2.Normalform:
+Das Beziehungsschema erfüllt die 1.NF und alle Nichtschlüsselattribute sind vom Primärschlüssel
+voll funktional abhängig.
+
+3.Normalform:
+Das Beziehungsschema erfüllt die 2.NF und kein Nichtschlüsselattribut ist vom Primärschlüssel
+transitiv abhängig und kein Nichtschlüsselattribut hängt von einem Nichtschlüsselattribut ab. 
+
 ## Aufgabe 12
 Erkläre den Unterschied zwischen starken und Schwachen Entitäten und erstelle ein Beispiel.
 ## Aufgabe 13
