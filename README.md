@@ -88,11 +88,11 @@ Erkläre die 3 Normalformen
 Beziehungsschema wird in seine atomaren Bestandteile zerlegt.
 
 2.Normalform:
-Das Beziehungsschema erfüllt die 1.NF und alle Nichtschlüsselattribute sind vom Primärschlüssel
+Das Beziehungsschema erfüllt die 1.Normalform und alle Nichtschlüsselattribute sind vom Primärschlüssel
 voll funktional abhängig.
 
 3.Normalform:
-Das Beziehungsschema erfüllt die 2.NF und kein Nichtschlüsselattribut ist vom Primärschlüssel
+Das Beziehungsschema erfüllt die 2.Normalform und kein Nichtschlüsselattribut ist vom Primärschlüssel
 transitiv abhängig und kein Nichtschlüsselattribut hängt von einem Nichtschlüsselattribut ab. 
 
 ## Aufgabe 12
