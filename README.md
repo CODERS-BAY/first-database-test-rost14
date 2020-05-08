@@ -69,7 +69,9 @@ Was bedeutet der Begriff Kardinalität und welche Kardinalitäten gibt es?
 Kardinalität = Verhältnisse der Beziehungen
 
 1 : 1
+
 1 : n
+
 m : n
 
 ## Aufgabe 10
