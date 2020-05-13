@@ -101,6 +101,7 @@ Erkläre den Unterschied zwischen starken und Schwachen Entitäten und erstelle 
 Welche Grundregeln gibt es im Relationenmodell? (Nenne mindestens 4)
 ## Aufgabe 14
 Wie löst man eine M:N Beziehung auf? Erstelle ein Beispiel
+Mit einer assoziativen Tabelle
 ## Aufgabe 15
 Ein Handelsbetrieb verkauft ein Sortiment von Artikeln, die er von verschiedenen Herstellern bezieht. Der Handelsbetrieb hat einen bestimmten Kundenkreis, der regelmäßig Bestellungen aufgibt. Eine Bestellung kann mehrere Artikel umfassen. Ein Artikel kann von mehreren Lieferanten bezogen werden und ein Lieferant liefert natürlich meist mehr als einen Artikel. Erstelle ein ERD und ein Relationenmodell, welches der 3. Normalform entspricht.
 ## Aufgabe 16
