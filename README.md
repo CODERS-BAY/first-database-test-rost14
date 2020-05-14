@@ -97,8 +97,22 @@ transitiv abhängig und kein Nichtschlüsselattribut hängt von einem Nichtschl�
 
 ## Aufgabe 12
 Erkläre den Unterschied zwischen starken und Schwachen Entitäten und erstelle ein Beispiel.
+
+    Eine starke Entität kann für sich alleine existieren und ist nicht von anderen abhängig.
+    
+    
+    Eine schwache Entität kann nur in Verbindung mit einer anderen existieren.
+    
+    
+    Beispiel: Ein Haus kann ohne einen Raum existieren, aber ein Raum nicht ohne ein Haus.
+
 ## Aufgabe 13
 Welche Grundregeln gibt es im Relationenmodell? (Nenne mindestens 4)
+
+Jede Entität braucht eine eindeutige Bezeichnung (Primärschlüssel oder ein zusammengesetzter Schlüssel)
+Alle Entitäten müssen über Beziehungen verbunden sein
+Keine Daten sollen doppelt vorhanden sein (Redundanz vermeiden)
+Keine n:m Beziehungen (auflösen mit Kreuztabelle bzw. Beziehung als Entität) 
 ## Aufgabe 14
 Wie löst man eine M:N Beziehung auf? Erstelle ein Beispiel
 
@@ -107,6 +121,15 @@ Mit einer assoziativen Tabelle
 Ein Handelsbetrieb verkauft ein Sortiment von Artikeln, die er von verschiedenen Herstellern bezieht. Der Handelsbetrieb hat einen bestimmten Kundenkreis, der regelmäßig Bestellungen aufgibt. Eine Bestellung kann mehrere Artikel umfassen. Ein Artikel kann von mehreren Lieferanten bezogen werden und ein Lieferant liefert natürlich meist mehr als einen Artikel. Erstelle ein ERD und ein Relationenmodell, welches der 3. Normalform entspricht.
 ## Aufgabe 16
 Welche Anomalien kennst du und was beschreiben sie?
+
+    Insert: Wenn falsche oder redundante Daten eingetragen werden.
+    
+    
+    Update: Wenn beim hinzufügen oder aktualisieren mehrere Daten, andere Daten verfälscht werden.
+    
+    
+    Delete: Wenn durch das Löschen von Daten andere Daten ebenfalls gelöscht werden.
+
 ## Aufgabe 17
 Modellieren Sie den angeführten Realitätsausschnitt einer Fluggesellschaft mit Hilfe eines Entity Relationship- Diagramms. Treffen Sie, falls notwendig, sinnvolle Annahmen und dokumentieren Sie diese nachvollziehbar in Ihrer Lösung. Der zu betrachtende Realitätsausschnitt der Fluggesellschaft umfasst folgenden
 Sachverhalt:
