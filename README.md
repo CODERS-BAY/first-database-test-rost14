@@ -111,13 +111,21 @@ Beispiel: Ein Haus kann ohne einen Raum existieren, aber ein Raum nicht ohne ein
 Welche Grundregeln gibt es im Relationenmodell? (Nenne mindestens 4)
 
 Jede Entität braucht eine eindeutige Bezeichnung (Primärschlüssel oder ein zusammengesetzter Schlüssel)
+
+
 Alle Entitäten müssen über Beziehungen verbunden sein
+
+
 Keine Daten sollen doppelt vorhanden sein (Redundanz vermeiden)
+
+
 Keine n:m Beziehungen (auflösen mit Kreuztabelle bzw. Beziehung als Entität) 
 ## Aufgabe 14
 Wie löst man eine M:N Beziehung auf? Erstelle ein Beispiel
 
-Mit einer assoziativen Tabelle
+Die n:m-Beziehung wird also aufgelöst, und man erhält eine weitere Datenbanktabelle, die 1:n-Beziehungen realisiert. 
+
+
 ## Aufgabe 15
 Ein Handelsbetrieb verkauft ein Sortiment von Artikeln, die er von verschiedenen Herstellern bezieht. Der Handelsbetrieb hat einen bestimmten Kundenkreis, der regelmäßig Bestellungen aufgibt. Eine Bestellung kann mehrere Artikel umfassen. Ein Artikel kann von mehreren Lieferanten bezogen werden und ein Lieferant liefert natürlich meist mehr als einen Artikel. Erstelle ein ERD und ein Relationenmodell, welches der 3. Normalform entspricht.
 ## Aufgabe 16
