@@ -132,7 +132,7 @@ Ein Handelsbetrieb verkauft ein Sortiment von Artikeln, die er von verschiedenen
 Welche Anomalien kennst du und was beschreiben sie?
 
 
-Insert: Wenn falsche oder redundante Danten eingetragen werden.
+Insert: Wenn falsche oder redundante Daten eingetragen werden.
 
 
 Update: Wenn beim hinzufügen oder aktualisieren mehrere Daten oder andere Daten verfälscht werden.
