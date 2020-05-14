@@ -101,6 +101,12 @@ Erkläre den Unterschied zwischen starken und Schwachen Entitäten und erstelle 
 
 Starke Entität: Kann für sich alleine exestieren und ist nich von anderen abhängig.
 
+
+Schwache Entität: Kann nur in Verbindung mit einer anderen Entität existieren.
+
+
+Beispiel: Ein Haus kann ohne einen Raum existieren, aber ein Raum nicht ohne eine Haus.
+
 ## Aufgabe 13
 Welche Grundregeln gibt es im Relationenmodell? (Nenne mindestens 4)
 
