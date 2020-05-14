@@ -123,13 +123,22 @@ Keine n:m Beziehungen (auflösen mit Kreuztabelle bzw. Beziehung als Entität)
 ## Aufgabe 14
 Wie löst man eine M:N Beziehung auf? Erstelle ein Beispiel
 
-Die n:m-Beziehung wird also aufgelöst, und man erhält eine weitere Datenbanktabelle, die 1:n-Beziehungen realisiert. 
+Die n:m-Beziehung wird aufgelöst und man erhält eine weitere Datenbanktabelle die 1:n-Beziehungen realisiert. 
 
 
 ## Aufgabe 15
 Ein Handelsbetrieb verkauft ein Sortiment von Artikeln, die er von verschiedenen Herstellern bezieht. Der Handelsbetrieb hat einen bestimmten Kundenkreis, der regelmäßig Bestellungen aufgibt. Eine Bestellung kann mehrere Artikel umfassen. Ein Artikel kann von mehreren Lieferanten bezogen werden und ein Lieferant liefert natürlich meist mehr als einen Artikel. Erstelle ein ERD und ein Relationenmodell, welches der 3. Normalform entspricht.
 ## Aufgabe 16
 Welche Anomalien kennst du und was beschreiben sie?
+
+
+Insert: Wenn falsche oder redundante Danten eingetragen werden.
+
+
+Update: Wenn beim hinzufügen oder aktualisieren mehrere Daten oder andere Daten verfälscht werden.
+
+
+Delete: Wenn beim löschen von Daten andere Daten ebenfalls gelöscht werden.
 
 
 ## Aufgabe 17
